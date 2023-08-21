@@ -1,0 +1,27 @@
+name: flutteraudiorecordstopplay
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.6 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  translator: ^0.1.6
+  speech_to_text: ^5.0.0
+  cupertino_icons: ^1.0.2
+  file_picker: ^4.0.1
+  audioplayers: ^4.1.0
+  permission_handler: ^10.4.3
+  record: ^4.4.4
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
